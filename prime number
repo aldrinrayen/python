@@ -1,0 +1,31 @@
+#finding prime number
+a=int(input())
+if a>1:
+     for i in range(a):
+         if a%i==0:
+             print('not a prime number')
+             break;
+else:
+   print('prime number')
+
+#Finding prime number between intevals
+a=int(input())
+b=int(input())
+c=[]
+d=[]
+if a>1:
+    for i in range(a,b):
+        for j in range(2,i):
+           
+            if i%j==0:
+                c.append(i)
+                break;
+            else:
+                pass;
+        else:
+            d.append(i)
+    
+         
+         
+         
+         
